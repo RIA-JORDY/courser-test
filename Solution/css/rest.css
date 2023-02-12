@@ -6,6 +6,10 @@ body
 	font-family: "Lucida Console", "Courier New", monospace;
 }
 
+button.navbar-toggler
+{
+  margin: 20px;
+}
 
 
 /********************************************************/
@@ -137,7 +141,7 @@ h2
 .navbar-brand h1 { 
  
   font-size: 4vw;
-  word-spacing: .00000001em;
+  
 
   
 }
