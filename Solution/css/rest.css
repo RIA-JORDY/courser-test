@@ -1,0 +1,266 @@
+body
+{
+	font-size: 16px;
+	color: #fff;
+	background-color: #D8BFD8;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+/********************************************************/
+
+#navbarTogglerDemo02
+{
+  width: 100%;
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+
+/*** HEADER START ***/
+
+
+header
+{
+	background-color: #FFF5EE;	
+
+}
+
+
+.navbar-brand
+{
+	padding: 0 25px;
+ 
+
+}
+
+.navbar-brand h1  { /* Restaurant name */
+  color: #4B0082;
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 2;
+  margin: 0 0 0 0;
+}
+
+.navbar-nav
+{
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+
+  width: 100%;
+
+}
+
+
+
+li
+{
+border: 1px solid black;
+}
+
+#nav-list a:hover
+{
+  background: #E7E7E7;
+  
+}
+
+#nav-list a:link
+{
+  text-decoration: none;
+}
+
+
+/*** HEADER END ***/
+
+
+
+
+/********************************************************/
+
+
+
+/**** BODY START ****/
+
+h2
+{
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 1;
+  margin: 20px 0 0 7px;
+}
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  padding:20px;
+
+}
+.category-tile h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #3F0C1F;
+  padding-bottom: 20px
+  
+}
+
+.category-tile p {
+  font-size: 14px;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/**** BODY END ****/
+
+
+
+
+/********************************************************/
+
+
+
+/** RESPONSIVE DESIGN **/
+
+
+/*** Large Devices ***/
+@media (min-width: 1200px)
+{
+
+.navbar-brand h1 { 
+ 
+  font-size: 4vw;
+  word-spacing: .00000001em;
+
+  
+}
+
+h2
+{
+  
+  font-size: 4vw;
+
+}
+
+
+
+.category-tile p {
+  font-size: 45px;
+}
+
+.category-tile h3 {
+  font-size: 50px;
+}
+  
+} 
+
+/*** Medium Devices ***/
+
+@media (min-width: 768px) and (max-width: 1199px)
+{
+
+ 
+  .navbar-brand h1 { 
+    font-size: 5vw; 
+   
+    padding-bottom: 10px;
+
+  }
+
+  h2
+{
+  
+  font-size: 5vw;
+
+}
+
+
+.category-tile p {
+  font-size: 40px;
+}
+
+.category-tile h3 {
+  font-size: 45px;
+}
+  
+
+}
+
+
+
+/*** Small Devices ***/
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+
+  
+  .navbar-brand h1 { 
+    font-size: 6vw; 
+  }
+
+  h2
+  { 
+  
+  font-size: 6vw;
+ 
+  }
+  .category-tile h3 {
+  font-size: 40px;
+  }
+
+   .category-tile p {
+  font-size: 35px;
+  }
+  
+} 
+
+
+/*** X-Small Devices ***/
+@media (max-width: 575px) 
+{
+
+ /* Header */
+  
+  .navbar-brand h1 { 
+   
+    font-size: 9vw;
+  }
+
+  h2
+  {
+  
+  font-size: 10vw;
+
+  }
+
+  .category-tile span {
+  font-size: 30px;
+  }
+  
+  .category-tile p {
+  font-size: 25px;
+  }
+
+  #nav-list a
+  {
+    font-size: 2em;
+  }
+
+  
+}
+
+
+
+
